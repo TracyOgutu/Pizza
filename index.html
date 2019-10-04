@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>PIZZA PROJECT</title>
+
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha384-mlceH9HlqLp7GMKHrj5Ara1+LvdTZVMx4S1U43/NxCvAkzIo8WJ0FE7duLel3wVo" crossorigin="anonymous"></script>
+    <script src="js/scripts.js"></script>
+
+</head>
+<body>
+        <div class = "container-fluid">
+                <div class ="jumbotron">
+                        
+                        <img src = "" id = "welcomelogo"><br>
+
+                        <h1 id = "welcome">WELCOME</h1>
+
+                                <h1 id = "pizza"> TO PIZZA PALACE</h1> 
+                        
+                                <h2 id = "line">TANTALIZING PIZZA FOR PIZZA LOVERS</h2>
+                
+                </div>
+        
+                
+                <div class = "card" >
+
+                        <h1>ORDER YOUR PIZZA</h1>
+
+                        <form id ="pizza-form"> 
+
+                                <div class="form-group">
+                                                  
+                                <div class="pizza-size">
+
+                                    <h1>SIZE</h1>
+
+                                        <input type = "radio" name="size" value="600" class="size" id="small" required >Small<br>
+                                        
+                                        
+                                        <input type = "radio" name="size" value="800" class="size" id="medium" required>Medium<br>
+
+                                        <input type = "radio" name="size" value="1000" class="size" id ="large" required>Large<br>
+                                        <br>
+
+                                        <div class="quantity">
+                                                <h1>QUANTITY</h1>
+
+                                                <input type = "number" name="quantity" id="quantity" placeholder="Quantity" required><br>
+                                            
+                                        </div>
+    
+                                </div>
+
+                                    <div class="pizza-crust">
+                                            <h1>CRUST</h1>
+                                          
+                                            <input type = "radio" name="crust" value="100" class="crusts" id="crispy" required>Crispy<br>
+                                            
+                                            
+                                            <input type = "radio" name="crust" value="200"  class="crusts"id="stuffed" required>Stuffed<br>
+    
+                                            <input type = "radio" name="crust" value="300"  class="crusts"id ="glutenfree"required>Gluten-free<br>
+
+                                            <br>
+
+        
+                                        </div>
+                                        <div class="pizza-toppings">
+                                                <h1>TOPPINGS</h1>
+                                                <input type = "radio" name="toppings" value="400" class ="toppings" id ="meat" required>Meat<br>
+                                                
+                                                
+                                                <input type = "radio" name="toppings" value="200" class ="toppings" id="vegetable"required>Vegetable<br>
+        
+                                                <input type = "radio" name="toppings" value="500" class ="toppings" id="mixed"required>Mixed<br>
+    
+                                                <br>
+    
+            
+                                            </div>
+
+                                           
+
+
+                                            <div class="delivery">
+                                                    <h1>DELIVERY</h1>
+
+                                                    <input type = "radio" name="delivery" value="1" id ="yes"required>Yes<br>
+                                                    
+                                                    <input type = "radio" name="delivery" value="2" id ="no" required>No<br>
+                
+                                            </div>
+
+                                            <div class="address">
+                                                    <h1>ADDRESS</h1>
+                                                    
+                                                    <input type ="text" id="city" placeholder="City">
+                                                    <input type ="text" id="estate" placeholder="Estate">
+                                                    <input type ="text" id="street" placeholder="Street">
+                                                    <input type ="text" id="housenumber" placeholder="House Number">
+                
+                                            </div>                                     
+
+                                </div>
+
+                                <div class="submit">
+                                        <input type ="submit" id="submit">
+                                </div>
+
+
+                                
+                        </form>
+
+                        <div id="show-order">
+
+                                <h2>ORDER SUMMARY</h2>
+
+                                <p>Size: <span class="order-size"></span></p>
+                                <p>Quantity: <span class="order-quantity"></span></p>
+                                <p>Crusts: <span class="order-crusts"></span></p>
+                                <p>Toppings:<span class="order-toppings"></span></p>
+
+                                
+                        </div>
+                </div>
+
+    <div class="card" id="footer">
+
+   
+                           
+                      
+                        <h5>PIZZA PALACE</h5>
+                        <h7>2019</h7>
+                      
+                                                
+  </div>                           
+    
+</body>
+</html>
