@@ -1,3 +1,11 @@
 .address{
     display: none;
 }
+
+.show-order{
+    display: none;
+}
+
+.address-summary{
+    display: none;
+}

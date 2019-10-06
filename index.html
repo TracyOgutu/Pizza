@@ -21,9 +21,9 @@
 
                         <h1 id = "welcome">WELCOME</h1>
 
-                                <h1 id = "pizza"> TO PIZZA PALACE</h1> 
+                                <h1 id = "pizza"> TO PIZZA HUT</h1> 
                         
-                                <h2 id = "line">TANTALIZING PIZZA FOR PIZZA LOVERS</h2>
+                                <h2 id = "line">A HUT FOR A PIZZA HEART</h2>
                 
                 </div>
         
@@ -34,7 +34,22 @@
 
                         <form id ="pizza-form"> 
 
-                                <div class="form-group">
+                             <div class="form-group">
+
+                                <div class="pizza-type">
+
+                                 <h1>PIZZA TYPE</h1>
+                            
+                                        <input type = "radio" name="type" class="type" value="Hawaiian" required >Hawaiian<br>
+                                                                    
+                                                                    
+                                        <input type = "radio" name="type" class="type" value="Meat-Deluxe" required>Meat Deluxe<br>
+                            
+                                        <input type = "radio" name="type" class="type" value="Peri-Peri-Chicken" required>Peri Peri Chicken<br><br>
+                                                                    
+                            
+                                                                   
+                                </div>
                                                   
                                 <div class="pizza-size">
 
@@ -73,12 +88,12 @@
                                         </div>
                                         <div class="pizza-toppings">
                                                 <h1>TOPPINGS</h1>
-                                                <input type = "radio" name="toppings" value="400" class ="toppings" id ="meat" required>Meat<br>
+                                                <input type = "radio" name="toppings" value="300" class ="toppings" id ="fruits" required>Fruits<br>
                                                 
                                                 
-                                                <input type = "radio" name="toppings" value="200" class ="toppings" id="vegetable"required>Vegetable<br>
+                                                <input type = "radio" name="toppings" value="400" class ="toppings" id="cheese"required>Cheese<br>
         
-                                                <input type = "radio" name="toppings" value="500" class ="toppings" id="mixed"required>Mixed<br>
+                                                <input type = "radio" name="toppings" value="200" class ="toppings" id="vegetables"required>Vegetables<br>
     
                                                 <br>
     
@@ -100,11 +115,11 @@
                                             <div class="address">
                                                     <h1>ADDRESS</h1>
                                                     
-                                                    <input type ="text" id="city" placeholder="City">
-                                                    <input type ="text" id="estate" placeholder="Estate">
-                                                    <input type ="text" id="street" placeholder="Street">
-                                                    <input type ="text" id="housenumber" placeholder="House Number">
-                
+                                                    <input type ="text" class="city" placeholder="City">
+                                                    <input type ="text" class="estate" placeholder="Estate">
+                                                    <input type ="text" class="street" placeholder="Street">
+                                                    <input type ="number" class="housenumber" placeholder="House Number">
+                                                    
                                             </div>                                     
 
                                 </div>
@@ -117,23 +132,40 @@
                                 
                         </form>
 
-                        <div id="show-order">
+                        <div class ="show-order">
 
                                 <h2>ORDER SUMMARY</h2>
-
+                                
+                                <p>Pizza Type: <span class="pizza-type"></span></p>
                                 <p>Size: <span class="order-size"></span></p>
                                 <p>Quantity: <span class="order-quantity"></span></p>
                                 <p>Crusts: <span class="order-crusts"></span></p>
                                 <p>Toppings:<span class="order-toppings"></span></p>
 
-                                
+                                <p>Delivery:<span class="delivery-fee"></span></p>
+
+                                <p>Total:<span class="order-total"></span></p>
+
+                        </div>    
+
+                        <div class ="address-summary">
+
+                                        <h3>Address Summary</h3>
+
+                                        <p>City:<span class="address-city"></span></p>
+                                        <p>Estate:<span class="address-estate"></span></p>
+                                        <p>Street:<span class="address-street"></span></p>
+                                        <p>HouseNumber:<span class="address-housenumber"></span></p>
                         </div>
+                                
+                                
+                        
                 </div>
 
     <div class="card" id="footer">
 
 
-                        <h5>PIZZA PALACE</h5>
+                        <h5>PIZZA HUT</h5>
                         <h7>2019</h7>
                       
                                                 
