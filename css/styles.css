@@ -95,3 +95,13 @@ input[type="radio"]{
     text-align: center;
     color: green;
 }
+
+h2{
+    color:green;
+}
+#line{
+    color:greenyellow;
+}
+#pizzatitle{
+    color:maroon;
+}
