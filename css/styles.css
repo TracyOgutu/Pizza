@@ -10,16 +10,20 @@
     display: none;
 }
 .jumbotron{
-    font-size: 500;
-    background-image: url(../pizzajumbo.webp);
+    margin-top:30px;
+    font-size:300px;
+    text-align: center;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../pizzajumbo.webp);
     background-size: cover;
     object-fit: fill;
     height:500px;
+    font:caption;
     color:white;
-    text-align: center;
-    font: caption;
     font-family: 'Nosifer', cursive;
-    background-attachment: fixed;
 
 
+
+}
+#whatwedo{
+    
 }
