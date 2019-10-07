@@ -64,6 +64,7 @@ $(document).ready(function(){
    {
             event.preventDefault();
 
+
             var type=$('input[name=type]:checked').val();  
 
             var size =$(".size").val();
@@ -114,8 +115,19 @@ $(document).ready(function(){
             $(".address-estate").text(estate);
             $(".address-street").text(street);
             $(".address-housenumber").text(housenumber);         
+
+            inputReset();
             
   });
+
+  function inputReset(){
+
+    
+    $('input[type="radio"]').prop('checked', false);
+    $("input#quantity").val("")
+   
+
+  }
 
 });
 
