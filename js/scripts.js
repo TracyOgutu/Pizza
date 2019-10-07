@@ -77,6 +77,7 @@ $(document).ready(function(){
     });
 
     $(".greekpizza").mouseover(function(){
+
         $(".clickme").show();
     }).mouseout(function(){
         $(".clickme").hide();
@@ -127,17 +128,15 @@ $(document).ready(function(){
 
          var type=$('input[name=type]:checked').val();  
 
-            var size =$(".size").val();
+            var size =$("input[name='size']:checked").val();
             var sizeSplit = size.split(", ");
             var sizePrice = parseInt(sizeSplit[1]);
             
-
-            var crusts=$(".crusts").val();
+            var crusts =$("input[name='crust']:checked").val();
             var crustSplit = crusts.split(", ");
             var crustPrice=parseInt(crustSplit[1]);
 
-
-            var toppings=$(".toppings").val();
+            var toppings =$("input[name='toppings']:checked").val();
             var toppingsSplit=toppings.split(", ");
             var toppingsPrice=parseInt(toppingsSplit[1]);
 
