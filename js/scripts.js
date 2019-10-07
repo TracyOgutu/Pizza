@@ -82,8 +82,9 @@ $(document).ready(function(){
 
             var quantity=parseInt($("input#quantity").val());                         
 
-            var test = deliveryFee();    
+            var test = deliveryFee(); 
 
+            
             var city=$(".city").val();
             var estate=$(".estate").val();
             var street=$(".street").val();
@@ -106,6 +107,8 @@ $(document).ready(function(){
             $(".delivery-fee").text(test);
             $(".order-total").text(orderamount);
 
+            $(".user-name").text(city);
+            $(".user-number").text(city);
             $(".address-city").text(city);
             $(".address-estate").text(estate);
             $(".address-street").text(street);
