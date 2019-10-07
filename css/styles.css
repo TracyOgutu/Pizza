@@ -106,3 +106,6 @@ h2{
 #pizzatitle{
     color:maroon;
 }
+#pricemenu{
+    display:inline-block;
+}
