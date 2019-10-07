@@ -84,7 +84,7 @@ $(document).ready(function(){
 
             var test = deliveryFee(); 
 
-            
+            var name=$(".name").val();
             var city=$(".city").val();
             var estate=$(".estate").val();
             var street=$(".street").val();
