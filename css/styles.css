@@ -113,3 +113,31 @@ h2{
 #pricemenu{
     display:inline-block;
 }
+.hawaiiantext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.periperitext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.meatdeluxetext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.greekpizzatext{
+    text-align: center;
+    cursor:pointer;
+    display:none;
+    color:red;
+}
+.clickme{
+    text-align: center;
+    display: none;
+}

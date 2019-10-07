@@ -58,14 +58,74 @@ $(document).ready(function(){
 
     }
 
-    
+    $(".hawaiian").mouseover(function(){
+        $(".clickme").show();
+    }).mouseout(function(){
+        $(".clickme").hide();
+    });
+
+    $(".periperi").mouseover(function(){
+        $(".clickme").show();
+    }).mouseout(function(){
+        $(".clickme").hide();
+    });
+
+    $(".meatdeluxe").mouseover(function(){
+        $(".clickme").show();
+    }).mouseout(function(){
+        $(".clickme").hide();
+    });
+
+    $(".greekpizza").mouseover(function(){
+        $(".clickme").show();
+    }).mouseout(function(){
+        $(".clickme").hide();
+    });
+
+    $(".hawaiian").click(function(){
+        $(".hawaiiantext").toggle();        
+        $(".hawaiian").toggle();        
+    });
+    $(".hawaiiantext").click(function(){
+        $(".hawaiian").toggle();
+        $(".hawaiiantext").toggle();        
+    });
+
+    $(".periperi").click(function(){
+        $(".periperitext").toggle();        
+        $(".periperi").toggle();        
+    });
+    $(".periperitext").click(function(){
+        $(".periperi").toggle();
+        $(".periperitext").toggle();        
+    });
+
+    $(".meatdeluxe").click(function(){
+        $(".meatdeluxetext").toggle();        
+        $(".meatdeluxe").toggle();        
+    });
+    $(".meatdeluxetext").click(function(){
+        $(".meatdeluxe").toggle();
+        $(".meatdeluxetext").toggle();        
+    });
+
+    $(".greekpizza").click(function(){
+        $(".greekpizzatext").toggle();        
+        $(".greekpizza").toggle();        
+    });
+    $(".greekpizzatext").click(function(){
+        $(".greekpizza").toggle();
+        $(".greekpizzatext").toggle();        
+    });
+
 
    $("form#pizza-form").submit(function(event)
    {
             event.preventDefault();
 
+            
 
-            var type=$('input[name=type]:checked').val();  
+         var type=$('input[name=type]:checked').val();  
 
             var size =$(".size").val();
             var sizeSplit = size.split(", ");
