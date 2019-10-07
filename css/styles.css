@@ -9,3 +9,14 @@
 .address-summary{
     display: none;
 }
+.jumbotron{
+    background-image: url(../pizzajumbo.webp);
+    background-size: cover;
+    height:500px;
+    color:white;
+    text-align: center;
+    font: caption;
+    font-size:100%;
+
+
+}
