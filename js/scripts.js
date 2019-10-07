@@ -46,8 +46,9 @@ $(document).ready(function(){
         {
             delivery = 200;
             $(".address-summary").show();
-
+           
             return delivery;
+            
         }
         else
         {
