@@ -6,12 +6,12 @@ $(document).ready(function(){
         this.Quantity = quantity;
         this.Type = type;
     }
-    // Order.prototype.Address = function(city,estate,street,housenumber){
-    //     this.City = city;
-    //     this.Estate = estate;
-    //     this.Street = street;
-    //     this.Housenumber = housenumber;
-    // }
+    Order.prototype.Address = function(city,estate,street,housenumber){
+        this.City = city;
+        this.Estate = estate;
+        this.Street = street;
+        this.Housenumber = housenumber;
+    }
 
     $("input#yes").click(function(){
         $(".address").show();
@@ -94,7 +94,7 @@ $(document).ready(function(){
             var newOrder = new Order(sizeSplit, toppingsSplit, crustSplit, quantity, type);
             console.log(newOrder);
 
-            // var newAddress = new newOrder.Address(city,estate,street,housenumber);
+            
 
             $(".show-order").show(); 
 
