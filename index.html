@@ -28,45 +28,63 @@
                 
                 </div>
 
-                <div class = "card "id="whatwedo">
+                 <div class = "container-fluid "id="pizzacraze">
                         <h1>PIZZA CRAZE</h1>
-                                <div class="container-fluid row icons">
-                                        <div class="icon-1">
-                                                <img src="hawaiian.jpg"  class="designlogo">
-                                                <h3>DESIGN</h3>
-                                                <div class="p1">
-                                                        Our design practice offers a full range of services including brand strategy, interaction
-                                                        and visual design and user experience testing.<br><br>
-                                                        Throughout your project,
-                                                        our designers create and implement visual design and workflows,
-                                                        solicit user feedback and work with you to make sure what gets built is what is needed.
+                                
+                                        <div class="row" id="pizza-1">
+                                                <div class="col-sm-3">
+                                                                <img src="hawaiian.jpg"  class="hawaiian">
+                                                                <h3>HAWAIIAN</h3>
+              
+                                                </div>   
+                                               
+                                                <div class="col-sm-3">
+                                                                <img src="periperi.webp" class="periperi">
+                                                                <h3>PERIPERI</h3>
+
                                                 </div>
-                                        </div> 
-                                        <div class="icon-2">
-                                                <img src="periperi.webp" class="developmentlogo">
-                                                <h3>DEVELOPMENT</h3>
-                                                <div class="p2">
-                                                        All engineers are fluent in the latest enterprise, mobile and web development technologies.<br><br>
-                                                        They collaborate with your team to write, and improve code on a daily basis, using proven
-                                                        practices such as test-driven development and pair programming.
+                                                
+                                                <div class="col-sm-3">
+                                                                <img src="meatdeluxe.jpg" class="meatdeluxe">
+                                                                <h3>MEAT DELUXE</h3>
                                                 </div>
-                                        </div> 
-                                        <div class="icon-3">
-                                                <img src="meatdeluxe.jpg" class="productmanagementlogo">
-                                                <h3>PRODUCT MANAGEMENT</h3>
-                                                <div class="p3">
-                                                        Planning and development is iterative. Because we are constantly coding and testing, 
-                                                        the products we build are always ready to go live. <br><br>
-                                                        This iterative process allows for changes as business requirements evolve.
+                                                
+                                                <div class ="col-sm-3">
+                                                                <img src="greekpizza.jpg" class="greekpizza">
+                                                                <h3>GREEK PIZZA</h3>
+                                                               
+
                                                 </div>
+                                               
                                         </div> 
-                                </div>
+
+                                        <!-- <div class="row" id ="pizza-2">
+                                                <img src="periperi.webp" class="periperi">
+                                                <h3>PERIPERI</h3>
+                                                
+                                        </div> 
+
+                                        <div class="pizza-3">
+                                                <img src="meatdeluxe.jpg" class="meatdeluxe">
+                                                <h3>MEAT DELUXE</h3>
+                                               
+                                        </div> 
+
+                                        <div class="pizza-4">
+                                                <img src="greekpizza.jpg" class="meatdeluxe">
+                                                <h3>GREEK PIZZA</h3>
+                                                
+                                        </div>  -->
+                                
+                 </div><br><br>
+         
+         
 
                                         
-                </div>          
+        
         
                 
-                <div class = "card" >
+                <div class = "card" id ="orderpizza">
 
                         <h1>ORDER YOUR PIZZA</h1>
 
@@ -76,22 +94,23 @@
 
                                 <div class="pizza-type">
 
-                                 <h1>PIZZA TYPE</h1>
+                                 <h2>PIZZA TYPE</h2>
                             
                                         <input type = "radio" name="type" class="type" value="Hawaiian" required >Hawaiian<br>
                                                                     
                                                                     
                                         <input type = "radio" name="type" class="type" value="Meat-Deluxe" required>Meat Deluxe<br>
                             
-                                        <input type = "radio" name="type" class="type" value="Peri-Peri-Chicken" required>Peri Peri Chicken<br><br>
+                                        <input type = "radio" name="type" class="type" value="Peri-Peri-Chicken" required>Peri Peri Chicken<br>
                                                                     
                             
+                                        <input type = "radio" name="type" class="type" value="Greek-Pizza" required>Greek Pizza<br><br>
                                                                    
                                 </div>
                                                   
                                 <div class="pizza-size">
 
-                                    <h1>SIZE</h1>
+                                    <h2>SIZE</h2>
 
                                         <input type = "radio" name="size" value="Small, 600" class="size" id="small" required >Small<br>
                                         
@@ -111,7 +130,7 @@
                                 </div>
 
                                     <div class="pizza-crust">
-                                            <h1>CRUST</h1>
+                                            <h2>CRUST</h2>
                                           
                                             <input type = "radio" name="crust" value="Crispy, 100" class="crusts" id="crispy" required>Crispy<br>
                                             
@@ -125,7 +144,7 @@
         
                                         </div>
                                         <div class="pizza-toppings">
-                                                <h1>TOPPINGS</h1>
+                                                <h2>TOPPINGS</h2>
                                                 <input type = "radio" name="toppings" value="Fruits, 300" class ="toppings" id ="fruits" required>Fruits<br>
                                                 
                                                 
