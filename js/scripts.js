@@ -85,6 +85,7 @@ $(document).ready(function(){
             var test = deliveryFee(); 
 
             var name=$(".name").val();
+            var number=$(".number").val();
             var city=$(".city").val();
             var estate=$(".estate").val();
             var street=$(".street").val();
@@ -107,8 +108,8 @@ $(document).ready(function(){
             $(".delivery-fee").text(test);
             $(".order-total").text(orderamount);
 
-            $(".user-name").text(city);
-            $(".user-number").text(city);
+            $(".user-name").text(name);
+            $(".user-number").text(number);
             $(".address-city").text(city);
             $(".address-estate").text(estate);
             $(".address-street").text(street);
